@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
+<style>
+ .shipin ul{list-style:none;width:100%;overflow:hidden;border:1px solid #FFF3EE;margin-bottom:10px;}
+ 
+ .shipin ul li{width:100%;font-family:微软雅黑;font-size:30px;} 
+ .shipin ul li {text-decoration:none;display:block;}
+.li{width:50%;float:left;list-style:none;}
+.img2{z-index:2;}
+</style>
+</head>
+
+<body>
+
+<div>
+<div style="width:100%;">
+
+<div class="shipin">
+
+<script>
+	var system ={};  
+    var p = navigator.platform;       
+    system.win = p.indexOf("Win") == 0;  
+    system.mac = p.indexOf("Mac") == 0;  
+    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
+    if(system.win||system.mac||system.xll){//&#22914;&#26524;&#26159;&#30005;&#33041;&#36339;&#36716;&#21040;&#30334;&#24230;  
+        document.write("<center><div><img src='./images/amituofo5.jpg' style='width:40%;height:600px;'></div></center><br>");
+	    
+		document.write("<ul><div style='float:left;width:50%;'><li><img src='./images/gongpin.gif' style='float:left;width:100%;'></li></div><div style='float:right;width:50%;'><li><img src='./images/gongpin.gif'></li></ul></div>");
+	    document.write("<ul><div style='width:100%;'><div style='width:20%;float:left;'><img src='./images/5.jpg' style='float:left;width:100%;'></div><div style='width:50%;float:left;margin-left:68px;'><img src='./images/gongpin.gif'></div><div style='width:20%;float:right;'><img src='./images/6.jpg'></div></div></ul>");
+}else{  //&#22914;&#26524;&#26159;&#25163;&#26426;,&#36339;&#36716;&#21040;&#35895;&#27468;
+        document.write("<center><div><img src='./images/amituofo5.jpg' style='width:40%;height:600px;'></div></center><br>");
+	    
+		document.write("<ul><div style='float:left;width:100%;'><li><img src='./images/gongpin.gif' style='float:left;width:100%;'></li></div></ul></div>");
+	    document.write("<ul><div style='width:100%;'><div style='width:50%;float:left;'><img src='./images/5.jpg' style='float:left;width:100%;'></div><div style='width:50%;float:right;'><img src='./images/6.jpg' style='float:left;width:100%;'></div></div></ul>");
+
+    }
+		</script>
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
