@@ -158,7 +158,9 @@ document.getElementById('con_menu_8').style.display='block';
 function conh(){
 document.getElementById('con_menu_1').style.display='block';
 }
-
+function coni(){
+document.getElementById('con_menu_9').style.display='block';
+}
 
 
 
@@ -200,13 +202,16 @@ if(GetQueryString("f")==7){
 if(GetQueryString("f")==8){
 	document.write("<body onload='conh()'>");
 }
-
+if(GetQueryString("f")==9){
+	document.write("<body onload='coni()'>");
+}
 </script>
  <div class="header"><p>冬参佛法</p></div>
  <div id="nav">
 <ul>
           <li><a href="../../index.html">首页</li> 
 		 <li id="menu8"><a href="wap.html?f=7&v=51000">佛经基础</li>
+	<li id="menu9"><a href="wap.html?f=8&v=52000">佛经基础2</li> 
 		 <li id="menu3"><a href="wap.html?f=2&v=30002">百业百喻经</li>
          <li id="menu1"><a href="wap.html?f=8&v=30000">文库</a></li>
          <li id="menu2"><a href="wap.html?f=1&v=30001">文库2</li>
@@ -215,8 +220,6 @@ if(GetQueryString("f")==8){
 		 <li id="menu7"><a href="wap.html?f=6&v=30300">文库5</li>
 		 <li id="menu4"><a href="wap.html?f=3&v=30011">佛学辞典</li>
         
-		 
-		 <li id="menu9" onclick="setTab('menu',9,10)"><a href="#">文库</li>
          
     </ul>
 	
@@ -384,6 +387,24 @@ goPage(1,150,7);
 <center><div class="pages" id="barcon_8"></div></center>
 <script> 
 goPage(1,150,8); 
+</script> 
+</div>
+</div>	 
+<div id="con_menu_9" style="display:none">
+<div class="shipin">
+<div class="list_sp">
+				<ul id="idData_9">
+					        
+				<center><script type="text/javascript" src="../../5/rumen3.js"></script></center>     
+                   
+
+  
+				</ul>
+			</div>
+<script src="ZLpages.js"></script>     	
+<center><div class="pages" id="barcon_9"></div></center>
+<script> 
+goPage(1,150,9); 
 </script> 
 </div>
 </div>
