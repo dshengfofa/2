@@ -55,7 +55,7 @@ padding:20px 5px 15px 20px;
 	 opacity:0.9;
 	 border:1px solid #C4E1FF;
  }
- #nav ul{list-style:none;margin:0px;}
+ .nav ul{list-style:none;margin:0px;}
  #main{
      width:960px;
      min-height:100%;
@@ -100,16 +100,16 @@ padding:20px 5px 15px 20px;
 	 opacity:0.9;
 	 border:1px solid #C4E1FF;
   }
-  #nav ul{
+  .nav ul{
       list-style:none;
      background:#C4E1FF;
      overflow:hidden;
   }
- #nav li{
+ .nav li{
      float:left;
 	 
  }
- #nav li a{
+ .nav li a{
      display:block;
       color:black;
      width:80px;
@@ -119,10 +119,10 @@ padding:20px 5px 15px 20px;
      text-align:center;
 	 opacity:0.8;
   }
- #nav .home{
+ .nav .home{
      width:128px;
  }
- #nav li a:hover{
+ .nav li a:hover{
 	 color:black;
       background:yellow;
 	 font-size:20px; 
@@ -242,7 +242,11 @@ if(GetQueryString("f")==10){
 }
 </script>
  <div class="header"><p>冬参佛法</p></div>
- <div id="nav">
+	  <div class="nav">
+<script src='../../nav.js'></script>
+	
+ </div> 
+ <div class="nav">
 <ul>
          <li><a href="../../index.html">首页</li> 
 	 <li id="menu1"><a href="index.html?f=8&v=51000">佛学基础</li>
