@@ -48,7 +48,7 @@ font-family:&#26999;&#20307;;
 padding:20px 5px 15px 20px;
 }
 
- #nav{
+ .nav{
      width:960px;
      margin:0 auto;
      margin-bottom:10px;
@@ -125,7 +125,6 @@ padding:20px 5px 15px 20px;
  .nav li a:hover{
 	 color:black;
       background:yellow;
-	 font-size:20px; 
 	opacity:0.8;
  }
   a:hover{
@@ -240,12 +239,22 @@ if(GetQueryString("f")==9){
 if(GetQueryString("f")==10){
 	document.write("<body onload='conj()'>");
 }
+
+var requset =new XMLHttpRequest();
+        //請求目標地址
+         
+        //.........
+         
+        //判斷
+        if(requset.status == 404){
+           window.location.href="baidu.com";
+        }
 </script>
  <div class="header"><p>冬参佛法</p></div>
-	  <div class="nav">
-<script src='../../nav.js'></script>
+   <div class="nav">
+<script src='./nav.js'></script>
 	
- </div> 
+ </div>
  <div class="nav">
 <ul>
          <li><a href="../../index.html">首页</li> 
@@ -434,7 +443,7 @@ goPage(1,150,8);
 <div class="list_sp">
 				<ul id="idData_9">
 					        
-shan				<center><script type="text/javascript" src="shan.js"></script></center>     
+				<center><script type="text/javascript" src="shan.js"></script></center>     
                    
 
   
